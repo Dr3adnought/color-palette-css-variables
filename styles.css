@@ -1,0 +1,38 @@
+:root {
+    --olive_palette: #C1BF4B;
+    --salmon_palette: #FFB4A2;
+    --almost_teal_palette: #169873;
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color1 {
+    background-color: var(--olive_palette)
+  }
+  
+  .color1_heading {
+    color: var(--olive_palette)
+  }
+  
+  .color2 {
+    background-color: var(--salmon_palette)
+  }
+  
+  .color2_heading {
+    color: var(--salmon_palette)
+  }
+  
+  .color3 {
+    background-color: var(--almost_teal_palette)
+  }
+  
+  .color3_heading {
+    color: var(--almost_teal_palette)
+  }
